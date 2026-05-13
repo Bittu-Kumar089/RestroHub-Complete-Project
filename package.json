@@ -6,6 +6,9 @@
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js",
+    "frontend": "vite",
+    "build:frontend": "vite build",
+    "preview:frontend": "vite preview",
     "test": "jest --detectOpenHandles",
     "test:watch": "jest --watch"
   },
@@ -18,11 +21,20 @@
     "jsonwebtoken": "^9.0.3",
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
-    "dotenv": "^16.3.1"
+    "dotenv": "^16.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "lucide-react": "^0.294.0"
   },
   "devDependencies": {
     "nodemon": "^3.0.1",
-    "jest": "^29.7.0"
+    "jest": "^29.7.0",
+    "@vitejs/plugin-react": "^4.1.1",
+    "vite": "^5.0.0",
+    "tailwindcss": "^3.3.5",
+    "postcss": "^8.4.31",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.51.0"
   },
   "engines": {
     "node": ">=18.0.0"
